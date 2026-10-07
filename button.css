@@ -1,0 +1,82 @@
+
+        .subscribe-button {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 105px;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 13.3;
+            margin-right: 8px;
+            transition: opacity 0.11s;
+        }
+
+        .subscribe-button:hover {
+            /* background-color: white; */
+            opacity: 0.8px;
+
+        }
+
+        .subscribe-button:active {
+            opacity: 0.25;
+        }
+
+        /* JOIN BUTTON */
+
+        .join-button {
+            background-color: white;
+            color: hwb(201 0% 0%);
+            border-style: solid;
+            height: 36px;
+            border-width: 1px;
+            width: 80px;
+            border-color: hwb(201 0% 0%);
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 13.3;
+            margin-right: 6px;
+            transition: join-button 10s, color 1s;
+            padding-top: 1px;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-bottom: 1px;
+        }
+
+        .join-button:hover {
+            background-color: hwb(201 0% 0%);
+            ;
+            /* opacity: o.8px; */
+            color: white;
+        }
+
+        .join-button:active {
+            opacity: 0.5;
+        }
+
+        /* Tweet BUTTON */
+
+        .tweet-button {
+            background-color: hwb(201 0% 0%);
+            color: white;
+            height: 36px;
+            border-width: 1px;
+            width: 105px;
+            border-color: hwb(201 0% 0%);
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            box-shadow: 10px 10px 10px rgba(0, 170, 255, 0.61);
+        }
+
+        .tweet-button:hover {
+            /* background-color: white; */
+            opacity: 0.8px;
+
+        }
+
+        .tweet-button:active {
+            opacity: 0.5;
+        }
+    

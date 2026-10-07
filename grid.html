@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title> Grid Practice</title>
+         <style>
+         .D1{
+            background-color: aqua;
+         }
+         .D2{
+            background-color: rgb(237, 29, 29);
+         }
+         .D3{
+            background-color: rgb(240, 217, 7);
+         }
+         .D4{
+            background-color: rgb(71, 231, 13);
+         }
+         .D5{
+            background-color: rgb(20, 121, 235);
+         }
+         .D6{
+            background-color: rgb(195, 26, 26);
+         }
+         .thumbnail{
+            margin: 10px;
+            height: 200px;
+            
+         }
+         </style>
+        <body style="padding-bottom: 1000px;
+        padding-right: 1000px;">
+            
+        <div style="
+            display: grid;
+            grid-template-columns:1fr 1fr  ;  
+            
+            ">
+
+            <div class="D1"> Div 1   </div>
+
+
+            <div class="D2"> Div 2  </div>
+         
+        </div>
+
+
+        <div>
+          <div style="
+            height: 200px;
+            display: grid;
+            row-gap: 20px;
+            grid-template-rows: 1fr 1fr 1fr  1fr   ;
+            
+            ">
+
+                <div class="D3"> Div 3</div>
+                <div class="D4"> Div 4  </div>
+                <div class="D5"> Div 5  </div>
+                <div class="D6"> Div 6 </div>
+        </div>
+          <div style="
+            height: 200px;
+            column-gap: 20px;
+            row-gap: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr  1fr   ;
+            
+            ">
+
+                <div class="D4"> Div 3</div>
+                <div class="D3"> Div 4  </div>
+                <div class="D6"> Div 5  </div>
+                <div class="D5"> Div 6 </div>
+        </div>
+        </div>
+        <div style="
+             margin-top: 20px;
+             display: grid;
+             grid-template-columns: 1fr 1fr 1fr;">
+
+       <div><img class="thumbnail" src="thumbnails/fifa.jpg"> 
+       </div>
+       <div><img class="thumbnail" src="thumbnails/fifa.jpg">  
+                                                                           
+       </div>
+       <div> <img class="thumbnail" src="thumbnails/fifa.jpg"> 
+                                                                              
+       </div>
+
+                        </div>
+
+        </body>
+    </head>
+</html>

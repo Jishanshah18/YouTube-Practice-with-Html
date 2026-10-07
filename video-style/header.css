@@ -1,0 +1,189 @@
+ .header{
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    position: fixed;
+    border-style: none;
+    display: flex;
+    z-index: 100;
+    column-gap: 50px;
+    justify-content:  space-between ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(186, 188, 189);
+ }
+ 
+ .left-section{
+    display: flex;
+    align-items: center;
+    min-width: 100px;
+    max-width: 400px;
+ }
+.hemberger{
+   height: 24px;
+   width: 50px;
+   margin-right: 24px;
+   margin-left: 15px;
+   cursor: pointer;
+
+
+               
+}
+
+ .yt-logo{
+    width: 80px;
+    height: 37px;
+    min-width: 80px;
+    margin-left: 5px;
+ }           
+  .middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 100px;
+    max-width:700px;
+    column-gap: 10px;
+    
+ 
+ }
+
+ 
+
+  
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+ .search-bar {
+    flex: 1;
+    font-size: 15px;
+    font-family: Roboto, Arial;
+    padding: 0 60px 0 20px;
+    height: 37px; 
+    font-size: 16px;
+    outline: none;
+    border-radius: 39px;
+    border-width: 1px;
+    border: 1px solid #3f3f3f;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: grey;
+    box-shadow: inset 1px 2px 3px 
+    rgba(0, 0, 0, 0.1);
+    width: 0px;
+}
+
+.search-button{
+   position: absolute;
+   right: 0;
+   top: 0;
+   background-color: transparent;
+   width: 40px;
+   height: 37px;
+   border:none;
+   border-width: 1px;
+   border-style: solid grey;
+   border-radius: 15px;
+   border-left: 1px solid grey;
+   border-radius: 0 24px 24px 0;
+   cursor: pointer;
+
+
+} 
+   .search-button img {
+  width: 24px;
+  height: 24px;
+  padding-inline: center;
+}
+.voice-icon{
+   width: 48px;
+   height: 37px;
+   border-radius: 15px;
+   border-style: none;
+   background-color: transparent;
+   cursor: pointer;
+   position: relative;
+
+
+} 
+
+ 
+/* ///////////////////////////////////////// */
+ .right-section{ 
+    display: flex;
+    justify-content:  space-between ;
+    align-items: center;
+    column-gap: 15px;
+    /* flex-shrink: 0px; */
+    margin-right: 13px;
+    border-style: none;
+    width: 240px;
+    min-width: 230px;
+    max-width: 400px;
+    flex-shrink: 0;
+ }
+
+ .uploads{
+    height: 37px;
+    border-style: none;
+    width: 50px;
+  background-color: transparent ;
+   position: relative;
+  cursor: pointer;
+
+
+ }
+.yt-apps{
+   height:37px;
+    border-style: none;
+   width: 40px;
+  background-color: transparent ;
+   position: relative;
+  cursor: pointer;
+
+
+}
+.notification{
+ height: 30px;
+ width: 40px;
+ border-radius: 20px;
+  background-color: transparent ;
+ border-style: none;
+  cursor: pointer;
+
+}
+
+.notification-container{
+   position: relative;
+
+}
+.notification-count{
+   position: absolute;
+   top: 0px;
+   right: 3px;
+   margin-top: 5px;
+   background-color: rgb(150, 48, 48);
+   color: white;
+   font-family: Roboto, Arial;
+   font-size: 11px;
+   padding-left: 6px;
+   padding-right: 6px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   border-radius: 10px;
+
+}
+
+.profile{
+   width:37px;
+   border-radius: 20px;
+   height: 37px;
+  cursor: pointer;
+   position: relative;
+
+
+}

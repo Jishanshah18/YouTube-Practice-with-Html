@@ -1,0 +1,39 @@
+ .search-button .tool-tip, 
+ .voice-icon .tool-tip,
+ .uploads .tool-tip,
+ .yt-apps .tool-tip,
+ .notification-container .tool-tip,
+ .profile .tool-tip{
+    position: absolute;
+    background-color: rgb(236, 230, 230);
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    bottom: -33px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap ;
+}
+
+
+
+
+
+.search-button:hover .tool-tip, 
+.voice-icon:hover .tool-tip,
+.uploads:hover .tool-tip,
+.yt-apps:hover .tool-tip,
+.notification-container:hover .tool-tip,
+.profile:hover .tool-tip{
+    background-color: grey;
+    color: white;
+    opacity: 1;
+    
+}
+ 
